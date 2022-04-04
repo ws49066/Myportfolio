@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;500&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    
+}
+
+.home{
+    background-color: #2c2d2e;
+    height:100vh;
+}
+.about{
+    height:100vh;
+}
+
+.skill{
+    height:100vh;
+}
+
+
+
+.home .header{
+    height: 10%;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #30a33a;
+}
+
+.menu ul{
+   display:flex;
+   justify-content: space-between;
+   padding-right: 50px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    padding: 0px 50px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.home section{
+    display: flex;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home section .perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 125px;
+    background-image: url(../assets/images/photoPerfil.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home section .description{
+    color: white;
+    font-size: 1.3em;
+    margin: 20px;
+    text-align: center;
+}
+
+.destaqueName{
+    color: #30a33a;
+}
