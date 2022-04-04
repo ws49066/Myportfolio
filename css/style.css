@@ -8,9 +8,6 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.container{
-    
-}
 
 .home{
     background-color: #2c2d2e;
@@ -32,7 +29,7 @@
     color:white;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #30a33a;
+    /* border-bottom: 3px solid #30a33a; */
 }
 
 .menu ul{
